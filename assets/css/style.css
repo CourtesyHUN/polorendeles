@@ -12,6 +12,7 @@ img{
 #polo
 {
     height: 600px;
+    
 }
 
 #felirat
@@ -22,6 +23,12 @@ img{
     z-index: 1;
     color: white;
     text-align: center;
+    font-family: 'Tilt Warp', cursive;
+}
+
+#sorszam
+{
+    font-family: 'Tilt Warp', cursive;
 }
 
 .keret
