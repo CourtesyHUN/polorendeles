@@ -35,7 +35,10 @@ function szoveg()
     var szam = document.getElementById("sorszam")
     var feliratom = document.getElementById("feliratom").value
     var szamom = document.getElementById("szamom").value
-    szo.innerHTML = feliratom
-    szam.innerHTML = szamom
     szo.style = "text-transform: uppercase"
+    szo.innerHTML = feliratom
+    console.log(szamom);
+    szam.innerHTML = szamom
+    
+
 }
