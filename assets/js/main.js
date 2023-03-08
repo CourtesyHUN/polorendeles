@@ -38,7 +38,13 @@ function szoveg()
     szo.style = "text-transform: uppercase"
     szo.innerHTML = feliratom
     console.log(szamom);
-    szam.innerHTML = szamom
-    
+    if (szamom >= 1 && szamom < 100) 
+    {   
+        szam.innerHTML = szamom
+    }
+    else
+    {
+        alert("Nem jó")
+    }
 
 }
