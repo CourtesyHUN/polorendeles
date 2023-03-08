@@ -1,4 +1,3 @@
-
 function polo() 
 {
     var szinvalaszt = document.getElementById("szintvalaszt").value
@@ -28,4 +27,15 @@ function polo()
         document.getElementById("polokep").src = "assets/images/polo-piros.png" 
         document.getElementById("polokep").style = "filter: grayscale(100%);"
     } 
+}
+
+function szoveg() 
+{
+    var szo = document.getElementById("felirat")
+    var szam = document.getElementById("sorszam")
+    var feliratom = document.getElementById("feliratom").value
+    var szamom = document.getElementById("szamom").value
+    szo.innerHTML = feliratom
+    szam.innerHTML = szamom
+    szo.style = "text-transform: uppercase"
 }
