@@ -5,6 +5,10 @@ body
     background-image: url("../images/pattern.png");
 }
 
+img{
+    width: 100%;
+}
+
 #polo
 {
     height: 600px;
